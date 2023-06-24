@@ -1,7 +1,9 @@
 .layout{
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 50px;
   max-width: 1200px;
   min-width: 800px;
+
 }
 
 .add-form{
@@ -58,7 +60,9 @@
 
 .list-wrapper{
   display: flex;
+  flex-wrap: wrap;
   gap: 12px ;
+  padding-bottom: 12px;
 }
 
 .todo-container {
